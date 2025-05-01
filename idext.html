@@ -27,10 +27,14 @@
             });
 
             var swiper = new Swiper(".conSwiper", {
+                slidesPerView: 3,
+                spaceBetween: 30,
                 scrollbar: {
                     el: ".swiper-scrollbar",
                     hide: true,
+
                 },
+
             });
 
             var swiper = new Swiper(".contenSwiper", {
@@ -81,408 +85,394 @@
                     </a>
                 </div><!-- .header_item end -->
 
-                <div class="bg_nav">
-                    <nav class="menu">
-                        <a href="#" class="btn_nav_close">
-                            <img src="img/header/btn_nav_close.png" alt="닫기">
-                        </a><!-- .btn_nav_close end -->
-                        <div class="nav_login_box">
-                            <div class="nav_not_login">
-                                <p>안녕하세요 스쿨룩스 입니다!<br />
-                                    <a href="#" class="btn_nav_login_tx">로그인</a>
-                                    하시면 스쿨룩스를 보다 편리하게<br />
-                                    이용하실 수 있습니다.
-                                </p>
-                            </div><!-- ."nav_not_login end -->
+                <div class="section">
+                    <div class="bg_nav">
+                        <nav class="menu">
+                            <a href="#" class="btn_nav_close">
+                                <img src="img/header/btn_nav_close.png" alt="닫기">
+                            </a><!-- .btn_nav_close end -->
+                            <div class="nav_login_box">
+                                <div class="nav_not_login">
+                                    <p>안녕하세요 스쿨룩스 입니다!<br />
+                                        <a href="#" class="btn_nav_login_tx">로그인</a>
+                                        하시면 스쿨룩스를 보다 편리하게<br />
+                                        이용하실 수 있습니다.
+                                    </p>
+                                </div><!-- ."nav_not_login end -->
 
-                        </div><!-- ."nav_login_box end -->
-                        <div class="nav_dep_Box">
-                            <ul class="nav_dep_1">
+                            </div><!-- ."nav_login_box end -->
+                            <div class="nav_dep_Box">
+                                <ul class="nav_dep_1">
 
-                                <li><a href="#" class="market">마켓스쿨</a></li>
-                                <li><a href="#" class="lineup">라인업</a></li>
-                                <li><a href="#" class="brand">브랜드</a></li>
-                                <li><a href="#" class="event">이벤트</a></li>
-                                <li><a href="#" class="cust">고객센터</a></li>
-
-                            </ul><!-- .nav_dep_1 end -->
-
-                            <div class="nav_dep_2 market">
-                                <ul class="nav_dep_2_list lineup">
-                                    <li><a href="#" class="comfort">간편교복 스타일</a></li>
-                                    <li><a href="#" class="suit">정장교복 스타일</a></li>
-                                    <li><a href="#" class="brand">디자인 룩북</a></li>
-                                </ul><!-- .nav_dep_1 end -->
-
-                                <ul class="nav_dep_2_market">
-                                    <li><a href="#" class="market">전체</a></li>
-                                    <li><a href="#" class="lineup">패션교복</a></li>
-                                    <li><a href="#" class="brand">패션의류</a></li>
-                                    <li><a href="#" class="event">액세서리</a></li>
-                                    <li><a href="#" class="cust">리빙</a></li>
-                                    <li><a href="#" class="cust">문구</a></li>
-                                </ul><!-- .nav_dep_1 end -->
-
-                                <ul class="nav_dep_2_list brand">
-                                    <li><a href="#" class="brandstroy">브랜드 스토리</a></li>
-                                    <li><a href="#" class="branddesign">스쿨룩 랩</a></li>
-                                    <li><a href="#" class="brandsafe">교복안심 시스템</a></li>
-                                    <li><a href="#" class="brandhope">희망더하기 캠페인</a></li>
-                                </ul><!-- .nav_dep_1 end -->
-
-                                <ul class="nav_dep_2_list event">
+                                    <li><a href="#" class="market">마켓스쿨</a></li>
+                                    <li><a href="#" class="lineup">라인업</a></li>
+                                    <li><a href="#" class="brand">브랜드</a></li>
                                     <li><a href="#" class="event">이벤트</a></li>
-                                    <li><a href="#" class="winner">당첨자 발표</a></li>
+                                    <li><a href="#" class="cust">고객센터</a></li>
+
                                 </ul><!-- .nav_dep_1 end -->
 
-                                <ul class="nav_dep_2_list custmore">
-                                    <li><a href="#" class="board">자주 묻는 질문</a></li>
-                                    <li><a href="#" class="write">1:1 문의</a></li>
-                                    <li><a href="#" class="store">매장찾기</a></li>
-                                </ul><!-- .nav_dep_1 end -->
+                                <div class="nav_dep_2 market">
+                                    <ul class="nav_dep_2_list lineup">
+                                        <li><a href="#" class="comfort">간편교복 스타일</a></li>
+                                        <li><a href="#" class="suit">정장교복 스타일</a></li>
+                                        <li><a href="#" class="brand">디자인 룩북</a></li>
+                                    </ul><!-- .nav_dep_1 end -->
 
-                            </div><!-- .nav_dep_2 cust -->
+                                    <ul class="nav_dep_2_market">
+                                        <li><a href="#" class="market">전체</a></li>
+                                        <li><a href="#" class="lineup">패션교복</a></li>
+                                        <li><a href="#" class="brand">패션의류</a></li>
+                                        <li><a href="#" class="event">액세서리</a></li>
+                                        <li><a href="#" class="cust">리빙</a></li>
+                                        <li><a href="#" class="cust">문구</a></li>
+                                    </ul><!-- .nav_dep_1 end -->
 
-                        </div><!-- .nav_dep_box end -->
+                                    <ul class="nav_dep_2_list brand">
+                                        <li><a href="#" class="brandstroy">브랜드 스토리</a></li>
+                                        <li><a href="#" class="branddesign">스쿨룩 랩</a></li>
+                                        <li><a href="#" class="brandsafe">교복안심 시스템</a></li>
+                                        <li><a href="#" class="brandhope">희망더하기 캠페인</a></li>
+                                    </ul><!-- .nav_dep_1 end -->
 
-                        <div class="nav_link_box">
+                                    <ul class="nav_dep_2_list event">
+                                        <li><a href="#" class="event">이벤트</a></li>
+                                        <li><a href="#" class="winner">당첨자 발표</a></li>
+                                    </ul><!-- .nav_dep_1 end -->
 
+                                    <ul class="nav_dep_2_list custmore">
+                                        <li><a href="#" class="board">자주 묻는 질문</a></li>
+                                        <li><a href="#" class="write">1:1 문의</a></li>
+                                        <li><a href="#" class="store">매장찾기</a></li>
+                                    </ul><!-- .nav_dep_1 end -->
 
-                            <ul>
-                                <li><a href="https://blog.naver.com/skoolooks3" target="_blank"
-                                        class="btn_nav_link_blog"><img src="img/header/icon_blog.png" alt="블로그"></a>
-                                </li>
-                                <li><a href="https://www.facebook.com/skoolooks" target="_blank"
-                                        class="btn_nav_link_fb"><img src="img/header/icon_fb.png" alt="유튜브"></a>
-                                </li>
-                                <li><a href="https://www.instagram.com/skoolooks_insta" target="_blank"
-                                        class="btn_nav_link_insta"><img src="img/header/icon_insta.png" alt="인스타"></a>
-                                </li>
-                                <li><a href="https://www.youtube.com/user/skoolooks1318" target="_blank"
-                                        class="btn_nav_link_youtube"><img src="img/header/icon_youtube.png"
-                                            alt="유튜브"></a></li>
-                            </ul>
-                        </div><!-- .nav_link_box end -->
+                                </div><!-- .nav_dep_2 cust -->
 
-                        <div class="nav_btn_login_box">
-                            <div class="text">
-                                <a href="#">
-                                    <p>로그인</p>
-                                </a>
-                            </div><!-- .text end -->
-                        </div><!-- .nav_btn_login_box end -->
+                            </div><!-- .nav_dep_box end -->
 
-                </div><!-- .btn -->
-
-                </nav><!-- .menu end -->
+                            <div class="nav_link_box">
 
 
-            </div><!-- .bg_nav end -->
+                                <ul>
+                                    <li><a href="https://blog.naver.com/skoolooks3" target="_blank"
+                                            class="btn_nav_link_blog"><img src="img/header/icon_blog.png" alt="블로그"></a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/skoolooks" target="_blank"
+                                            class="btn_nav_link_fb"><img src="img/header/icon_fb.png" alt="유튜브"></a>
+                                    </li>
+                                    <li><a href="https://www.instagram.com/skoolooks_insta" target="_blank"
+                                            class="btn_nav_link_insta"><img src="img/header/icon_insta.png"
+                                                alt="인스타"></a>
+                                    </li>
+                                    <li><a href="https://www.youtube.com/user/skoolooks1318" target="_blank"
+                                            class="btn_nav_link_youtube"><img src="img/header/icon_youtube.png"
+                                                alt="유튜브"></a></li>
+                                </ul>
+                            </div><!-- .nav_link_box end -->
 
-    </div><!-- .inner end -->
+                            <div class="nav_btn_login_box">
+                                <div class="text">
+                                    <a href="#">
+                                        <p>로그인</p>
+                                    </a>
+                                </div><!-- .text end -->
+                            </div><!-- .nav_btn_login_box end -->
 
-    </header><!-- .header end -->
+                    </div><!-- .btn -->
 
-    <main class="main_visual">
-        <div class="inner">
-            <div class="swiper visualSwiper">
-                <div class="swiper-wrapper">
+                    </nav><!-- .menu end -->
 
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/main/img_visual_80.jpg" alt="교복">
-                        </div><!-- .image end -->
-                    </div><!-- .swiper-slide end -->
 
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/main/img_visual_81.jpg" alt="교복">
-                        </div><!-- .image end -->
-                    </div><!-- .swiper-slide end -->
+                </div><!-- .bg_nav end -->
 
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/main/img_visual_79.jpg" alt="교복">
-                        </div><!-- .image end -->
-                    </div><!-- .swiper-slide end -->
+            </div><!-- .inner end -->
 
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/main/img_visual_25.jpg" alt="교복">
-                        </div><!-- .image end -->
-                    </div><!-- .swiper-slide end -->
+        </header><!-- .header end -->
 
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/main/img_visual_24.jpg" alt="교복">
-                        </div><!-- .image end -->
-                    </div><!-- .swiper-slide end -->
+        <main class="main_visual">
+            <div class="inner">
+                <div class="swiper visualSwiper">
+                    <div class="swiper-wrapper">
 
-                </div><!-- . visualSwiper end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/main/img_visual_80.jpg" alt="교복">
+                            </div><!-- .image end -->
+                        </div><!-- .swiper-slide end -->
 
-            </div><!-- .visualSwiper end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/main/img_visual_81.jpg" alt="교복">
+                            </div><!-- .image end -->
+                        </div><!-- .swiper-slide end -->
 
-        </div><!-- .inner end -->
-    </main><!-- .main_visual end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/main/img_visual_79.jpg" alt="교복">
+                            </div><!-- .image end -->
+                        </div><!-- .swiper-slide end -->
 
-    <div class="item_wrap">
-        <div class="item-right">
-            <div class="image">
-                <a href="#"><img src="img/content/img_lineup_17.jpg" alt="정장교복"></a>
-                <div class="text">
-                    <p><a href="#">정장교복</a></p>
-                    <button type="button" class="btn">
-                        <a href="#">
-                            <span>자세히 보기</span>
-                        </a>
-                    </button><!-- .btn -->
-                </div><!-- .text end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/main/img_visual_25.jpg" alt="교복">
+                            </div><!-- .image end -->
+                        </div><!-- .swiper-slide end -->
 
-            </div><!-- .image end -->
-        </div><!-- .item end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/main/img_visual_24.jpg" alt="교복">
+                            </div><!-- .image end -->
+                        </div><!-- .swiper-slide end -->
 
-        <div class="item-left">
-            <div class="item">
+                    </div><!-- . visualSwiper end -->
+
+                </div><!-- .visualSwiper end -->
+
+            </div><!-- .inner end -->
+        </main><!-- .main_visual end -->
+
+        <div class="item_wrap">
+            <div class="item-right">
                 <div class="image">
-                    <a href="#"><img src="img/content/img_lineup_18.jpg" alt="정장교복"></a>
+                    <a href="#"><img src="img/content/img_lineup_17.jpg" alt="정장교복"></a>
                     <div class="text">
-                        <p><a href="#">간편교복</a></p>
+                        <p><a href="#">정장교복</a></p>
                         <button type="button" class="btn">
                             <a href="#">
                                 <span>자세히 보기</span>
                             </a>
                         </button><!-- .btn -->
                     </div><!-- .text end -->
+
                 </div><!-- .image end -->
             </div><!-- .item end -->
-        </div><!-- .item-left -->
 
-    </div><!-- .item_wrap end -->
+            <div class="item-left">
+                <div class="item">
+                    <div class="image">
+                        <a href="#"><img src="img/content/img_lineup_18.jpg" alt="간편교복"></a>
+                        <div class="text">
+                            <p><a href="#">간편교복</a></p>
+                            <button type="button" class="btn">
+                                <a href="#">
+                                    <span>자세히 보기</span>
+                                </a>
+                            </button><!-- .btn -->
+                        </div><!-- .text end -->
+                    </div><!-- .image end -->
+                </div><!-- .item end -->
+            </div><!-- .item-left -->
 
-    <section class="section section-03">
-        <div class="inner">
-            <div class="sec_title">
-                <h3>SKOOLOOKBOOK</h3>
-                <p>스타일은 살리고 활동은 편한 스쿨룩스 스타일</p>
-            </div><!-- .sec_title nd -->
-            <div class="swiper contenSwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/container/img_lookbook_05.jpg" alt="">
-                        </div><!-- .image end -->
+        </div><!-- .item_wrap end -->
+
+        <section class="section section-03">
+            <div class="inner">
+                <div class="sec_title">
+                    <h3>SKOOLOOKBOOK</h3>
+                    <p>스타일은 살리고 활동은 편한 스쿨룩스 스타일</p>
+                </div><!-- .sec_title nd -->
+                <div class="swiper contenSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/container/img_lookbook_05.jpg" alt="">
+                            </div><!-- .image end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/container/img_lookbook_06.jpg" alt="">
+                            </div><!-- .image end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/container/img_lookbook_07.jpg" alt="">
+                            </div><!-- .image end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/container/img_lookbook_08.jpg" alt="">
+                            </div><!-- .image end -->
+                        </div><!-- .swiper-slide end -->
+
+
                     </div><!-- .swiper-slide end -->
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/container/img_lookbook_06.jpg" alt="">
-                        </div><!-- .image end -->
-                    </div><!-- .swiper-slide end -->
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/container/img_lookbook_07.jpg" alt="">
-                        </div><!-- .image end -->
-                    </div><!-- .swiper-slide end -->
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/container/img_lookbook_08.jpg" alt="">
-                        </div><!-- .image end -->
-                    </div><!-- .swiper-slide end -->
+
+                </div><!-- .swiper-wrapper -->
 
 
-                </div><!-- .swiper-slide end -->
+            </div><!-- .inner end -->
+        </section><!-- .section-03 end -->
 
-            </div><!-- .swiper-wrapper -->
-
-        </div><!-- .contenSwiper end -->
-        </div><!-- .inner end -->
-    </section><!-- .section-03 end -->
-
-    <section class="section section-04">
-        <div class="inner">
-            <div class="left">
+        <section class="section-04">
+            <div class="item-left item">
                 <div class="image">
                     <a href="#"><img src="img/item/img_market_12.jpg" alt="스쿨룩스 스타킹"></a>
-                    <div class="text">
-                        <a href="#">
-                            <p>스쿨룩스 스타킹</p>
-                            <span>자세히 보기</span>
-                        </a>
-
-                    </div><!-- text end -->
                 </div><!-- .image end -->
+                <div class="text-02">
+                    <p><a href="#">스쿨룩스 스타킹</a></p>
+                    <span><a href="#">자세히 보기</a></span>
+                </div><!-- .text end -->
+            </div><!-- .item-left ite -->
 
-            </div><!-- . -->
-
-            <div class="right">
-                <div class="image">
-                    <a href="#"><img src="img/item/img_market_13.jpg" alt="오가닉 면티"></a>
-                    <div class="text">
-                        <a href="#">
-                            <p>오가닉 면티</p>
-                            <span>자세히 보기</span>
-                        </a>
-
-                    </div><!-- text end -->
+            <div class="item_right item">
+                <div class="imgae">
+                    <a href="#">
+                        <img src="img/item/img_market_13.jpg" alt="오가닉 면티">
+                    </a>
                 </div><!-- .image end -->
+                <div class="text-03">
+                    <p><a href="#">오가닉 면티</a></p>
+                    <span><a href="#">자세히 보기</a></span>
+                </div><!-- .text-03 end -->
+            </div><!-- .item_right item -->
+        </section><!-- .section-04 -->
 
-            </div><!-- . -->
-
-
-        </div><!-- .inner  -->
-    </section><!-- .section-04 end -->
-
-
-
-
-    <div class="container">
-        <h3>MARKETSKOOL</h3>
-        <div class="inner">
-            <img src="img/item/img_market_list_02.jpg" alt="">
-            <div class="swiper conSwiper">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/item/118_temp_17066814350362list1.jpg" alt="[TWS미니포토엽서증정] 니트 가디건">
-                        </div><!-- .image end -->
-                        <div class="text">
-                            <p>[TWS미니포토엽서증정] 니트 가디건</p>
-                            <strong>85,000원</strong>
-                            <span>98,000원</span>
-                        </div><!-- .texe end -->
-                    </div><!-- .swiper-slide end -->
-
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/item/118_temp_17066814350362list1.jpg" alt="[TWS미니포토엽서증정] 니트 가디건">
-                        </div><!-- .image end -->
-                        <div class="text">
-                            <p>[TWS미니포토엽서증정] 니트 가디건</p>
-                            <strong>85,000원</strong>
-                            <span>98,000원</span>
-                        </div><!-- .texe end -->
-                    </div><!-- .swiper-slide end -->
-
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/item/118_temp_17066814350362list1.jpg" alt="[TWS미니포토엽서증정] 니트 가디건">
-                        </div><!-- .image end -->
-                        <div class="text">
-                            <p>[TWS미니포토엽서증정] 니트 가디건</p>
-                            <strong>85,000원</strong>
-                            <span>98,000원</span>
-                        </div><!-- .texe end -->
-                    </div><!-- .swiper-slide end -->
-
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/item/118_temp_17066814350362list1.jpg" alt="[TWS미니포토엽서증정] 니트 가디건">
-                        </div><!-- .image end -->
-                        <div class="text">
-                            <p>[TWS미니포토엽서증정] 니트 가디건</p>
-                            <strong>85,000원</strong>
-                            <span>98,000원</span>
-                        </div><!-- .texe end -->
-                    </div><!-- .swiper-slide end -->
-
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/item/118_temp_17066814350362list1.jpg" alt="[TWS미니포토엽서증정] 니트 가디건">
-                        </div><!-- .image end -->
-                        <div class="text">
-                            <p>[TWS미니포토엽서증정] 니트 가디건</p>
-                            <strong>85,000원</strong>
-                            <span>98,000원</span>
-                        </div><!-- .texe end -->
-                    </div><!-- .swiper-slide end -->
-
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/item/118_temp_17066814350362list1.jpg" alt="[TWS미니포토엽서증정] 니트 가디건">
-                        </div><!-- .image end -->
-                        <div class="text">
-                            <p>[TWS미니포토엽서증정] 니트 가디건</p>
-                            <strong>85,000원</strong>
-                            <span>98,000원</span>
-                        </div><!-- .texe end -->
-                    </div><!-- .swiper-slide end -->
-
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/item/118_temp_17066814350362list1.jpg" alt="[TWS미니포토엽서증정] 니트 가디건">
-                        </div><!-- .image end -->
-                        <div class="text">
-                            <p>[TWS미니포토엽서증정] 니트 가디건</p>
-                            <strong>85,000원</strong>
-                            <span>98,000원</span>
-                        </div><!-- .texe end -->
-                    </div><!-- .swiper-slide end -->
-
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/item/118_temp_17066814350362list1.jpg" alt="[TWS미니포토엽서증정] 니트 가디건">
-                        </div><!-- .image end -->
-                        <div class="text">
-                            <p>[TWS미니포토엽서증정] 니트 가디건</p>
-                            <strong>85,000원</strong>
-                            <span>98,000원</span>
-                        </div><!-- .texe end -->
-                    </div><!-- .swiper-slide end -->
-
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/item/118_temp_17066814350362list1.jpg" alt="[TWS미니포토엽서증정] 니트 가디건">
-                        </div><!-- .image end -->
-                        <div class="text">
-                            <p>[TWS미니포토엽서증정] 니트 가디건</p>
-                            <strong>85,000원</strong>
-                            <span>98,000원</span>
-                        </div><!-- .texe end -->
-                    </div><!-- .swiper-slide end -->
-
-                    <div class="swiper-slide">
-                        <div class="image">
-                            <img src="img/item/118_temp_17066814350362list1.jpg" alt="[TWS미니포토엽서증정] 니트 가디건">
-                        </div><!-- .image end -->
-                        <div class="text">
-                            <p>[TWS미니포토엽서증정] 니트 가디건</p>
-                            <strong>85,000원</strong>
-                            <span>98,000원</span>
-                        </div><!-- .texe end -->
-                    </div><!-- .swiper-slide end -->
-
-                </div><!-- .swiper-wrapper end -->
-
-                <div class="swiper-scrollbar"></div>
-
-            </div><!-- .swiper conSwiper end -->
-        </div><!-- .inner end -->
-    </div><!-- .container end-->
-
-
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/7qjFMJJsvSM?si=HQ1BfZ2zvssM9sWl"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-    <div class="video">
-        <video src="img/동영상/img_sales_01.mp4" autoplay muted loop></video>
-    </div><!-- .video -->
-    <div class="sec_btn">
-        <div class="right">
+        <div class="container">
+            <h3>MARKETSKOOL</h3>
             <div class="inner">
-                <div class="text">
-                    <div class="image">
-                        <a href="#">
-                            <img src="img/item/btn_main_link_contact.jpg" alt="1:1문의">
-                        </a>
-                        <!-- .image end -->
-                    </div><!-- .text end -->
-                </div><!-- .inner end -->
-            </div><!-- .right -->
-        </div><!-- .sec_btn end -->
+                <div class="image">
+                    <img src="img/item/img_market_list_02.jpg" alt="">
+                </div><!-- image end -->
+                <div class="swiper conSwiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/item/118_temp_17066814350362list1.jpg" alt="[TWS미니포토엽서증정] 니트 가디건">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>[TWS미니포토엽서증정] 니트 가디건</p>
+                                <strong>85,000원</strong>
+                                <span>98,000원</span>
+                            </div><!-- .texe end -->
+                        </div><!-- .swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/item/117_temp_17360894946970list1.jpg"
+                                    alt="[TWS미니포토엽서증정] 에센셜 베이직 후드 (NO자수 버전)">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>[TWS미니포토엽서증정] 에센셜 베이직 후드 (NO자수 버전)</p>
+                                <strong>78,000원</strong>
+                                <span>88,000원</span>
+                            </div><!-- .texe end -->
+                        </div><!-- .swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/item/116_temp_17066811913352list1.jpg" alt="각카라 교복 셔츠">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>각카라 교복 셔츠</p>
+                                <strong>60,000원</strong>
+                                <span>67,000원</span>
+                            </div><!-- .texe end -->
+                        </div><!-- .swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/item/115_temp_17066810940799list1.jpg" alt="[TWS미니포토엽서증정] 울혼방 플리츠 스커트">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>[TWS미니포토엽서증정] 울혼방 플리츠 스커트</p>
+                                <strong>66,000원</strong>
+                                <span>72,000원</span>
+                            </div><!-- .texe end -->
+                        </div><!-- .swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/item/114_temp_17360897709836list1.jpg" alt="[TWS미니포토엽서증정] 스탠다드 스웨트셔츠">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>[TWS미니포토엽서증정] 스탠다드 스웨트셔츠</p>
+                                <strong>68,000원</strong>
+                                <span>79,000원</span>
+                            </div><!-- .texe end -->
+                        </div><!-- .swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/item/113_temp_17043434786939list1.jpg" alt="[TWS미니포토엽서증정] 꽈배기 브이넥 니트 풀오버">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>[TWS미니포토엽서증정] 꽈배기 브이넥 니트 풀오버</p>
+                                <strong>70,000원</strong>
+                                <span>82,000원</span>
+                            </div><!-- .texe end -->
+                        </div><!-- .swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/item/112_temp_17049572586808list1.jpg" alt="[TWS미니포토엽서증정] 꽈배기 브이넥 니트 베스트">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>[TWS미니포토엽서증정] 꽈배기 브이넥 니트 베스트</p>
+                                <strong>70,000원</strong>
+                                <span>82,000원</span>
+                            </div><!-- .texe end -->
+                        </div><!-- .swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/item/110_temp_17360900258924list1.jpg" alt="[TWS미니포토엽서증정] 스탠다드 후드집업">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>[TWS미니포토엽서증정] 스탠다드 후드집업</p>
+                                <strong>74,000원</strong>
+                                <span>88,000원</span>
+                            </div><!-- .texe end -->
+                        </div><!-- .swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/item/109_temp_17037368956473list1.jpg" alt="[TWS미니포토엽서증정] 래글런 후드">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>[TWS미니포토엽서증정] 래글런 후드</p>
+                                <strong>74,000원</strong>
+                                <span>83,000원</span>
+                            </div><!-- .texe end -->
+                        </div><!-- .swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/item/75_temp_16510393362372list1.jpg" alt="100% 오가닉면티(2매 SET)">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>100% 오가닉면티(2매 SET)</p>
+                                <strong>24,500원</strong>
+                                <span>29,500원</span>
+                            </div><!-- .texe end -->
+                        </div><!-- .swiper-slide end -->
+
+                    </div><!-- .swiper-wrapper end -->
+
+                    <div class="swiper-scrollbar"></div>
+
+                </div><!-- .swiper conSwiper end -->
+            </div><!-- .inner end -->
+        </div><!-- .container end-->
+
+
+        <div class="main_movie_box">
+            <div class="movie_area_01">
+
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7qjFMJJsvSM?si=HQ1BfZ2zvssM9sWl"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div><!-- .movie_area_01 end -->
+
+            <div class="movie_area_02">
+                <div class="movie_box">
+                    <div class="video">
+                        <video src="img/동영상/img_sales_01.mp4" autoplay muted loop></video>
+                    </div><!-- .video -->
+                </div><!-- .movie_box end -->
+            </div><!-- .movie_area_02 end -->
+        </div><!-- .main_movie_box end -->
 
         <div class="sec_btn">
             <div class="left">
@@ -490,65 +480,73 @@
                     <div class="text">
                         <div class="image">
                             <a href="#">
-                                <img src="img/item/btn_main_link_store.jpg" alt="매장찾기">
+                                <img src="img/item/btn_main_link_contact.jpg" alt="1:1문의">
                             </a>
-                            <!-- .image end -->
-                        </div><!-- .text end -->
-                    </div><!-- .inner end -->
-                </div><!-- .right -->
-            </div><!-- .sec_btn end -->
-
-            <footer>
-                <div class="fot_con">
-                    <div class="fot_logo">
-                        <div class="image">
-                            <img src="img/footer/img_footer_logo.png" alt="logo"><a href="#"></a></img>
                         </div><!-- .image end -->
-                        <ul class="fo_gnb">
-                            <li><a href="#">이용약관</a></li>
-                            <li><a href="#">개인정보취급방침</a></li>
-                            <li><a href="#">제휴문의</a></li>
-                            <li><a href="#">대리점 개설문의</a></li>
-                            <li><a href="#">찾아오시는 길</a></li>
-                        </ul><!-- .fo_gnb end -->
-                    </div><!-- .fot_logo end -->
+                    </div><!-- .text end -->
+                </div><!-- .inner -->
+            </div><!-- .left -->
 
-                    <div class="inner">
-                        <div class="tel">
-                            <ul class="gnb">
-                                <li>회사명 (주)더엔진</li>
-                                <li>대표이사 오현택</li>
-                                <li>주소 서울특별시 용산구 원효로 134 (대교빌딩) 5층</li>
-                                <li>사업자등록번호 214-87-53150</li>
-                            </ul><!-- .gnb end -->
+            <div class="right">
+                <div class="text">
+                    <div class="image">
+                        <a href="#">
+                            <img src="img/item/btn_main_link_store.jpg" alt="매장찾기">
+                        </a>
+                    </div><!-- .image end -->
+                </div><!-- text end -->
+            </div><!-- .right end -->
+        </div><!-- .sec_btn -->
 
-                            <ul class="gnb">
-                                <li>통신판매업신고 2019-서울성동-01764</li>
-                                <li>대표이사 오현택</li>
-                                <li>개인정보 관리책임자 김율</li>
-                            </ul><!-- .gnb end -->
-
-                            <ul class="gnb">
-                                <li>이메일 webmaster@skoolooks.com</li>
-                            </ul><!-- .gnb end -->
-
-                            <ul class="gnb">
-                                <li>대표 번호</li>
-                                <li>1588-3066</li>
-                            </ul><!-- .gnb end -->
-                        </div><!-- .tel end -->
-                        <div class="copy">
-                            <p>© 2022. SKOOLOOKS All rights reserved.</p>
-                        </div><!-- .copy end -->
-
+        <footer>
+            <div class="fot_con">
+                <div class="inner">
+                    <div class="fot_logo">
+                            <img src="img/footer/img_footer_logo.png" alt="푸터로고">
                     </div><!-- .inner end -->
-                </div><!-- .fot_con end -->
-            </footer>
+                    <ul class="fo_gnb">
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보취급방침</a></li>
+                        <li><a href="#">제휴문의</a></li>
+                        <li><a href="#">대리점 개설문의</a></li>
+                        <li><a href="#">찾아오시는 길</a></li>
+                    </ul><!-- .fo_gnb end -->
+                </div><!-- .fot_logo end -->
+
+                <div class="inner">
+                    <div class="tel">
+                        <ul class="gnb">
+                            <li>회사명 (주)더엔진</li>
+                            <li>대표이사 오현택</li>
+                            <li>주소 서울특별시 용산구 원효로 134 (대교빌딩) 5층</li>
+                            <li>사업자등록번호 214-87-53150</li>
+                        </ul><!-- .gnb end -->
+
+                        <ul class="gnb">
+                            <li>통신판매업신고 2019-서울성동-01764</li>
+                            <li>대표이사 오현택</li>
+                            <li>개인정보 관리책임자 김율</li>
+                        </ul><!-- .gnb end -->
+
+                        <ul class="gnb">
+                            <li>이메일 webmaster@skoolooks.com</li>
+                        </ul><!-- .gnb end -->
+
+                        <ul class="gnb">
+                            <li>대표 번호</li>
+                            <li>1588-3066</li>
+                        </ul><!-- .gnb end -->
+                    </div><!-- .tel end -->
+                    <div class="copy">
+                        <p>© 2022. SKOOLOOKS All rights reserved.</p>
+                    </div><!-- .copy end -->
+
+                </div><!-- .inner end -->
+            </div><!-- .fot_con end -->
+        </footer>
 
 
-
-
-        </div><!-- .wrap end -->
+    </div><!-- .wrap end -->
 
 </body>
 
