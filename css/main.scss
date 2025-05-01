@@ -1,0 +1,60 @@
+@charset "utf-8";
+@import url('reset.css');
+@import url("pretendard.css");
+
+
+body{
+  font-family: 'pretendard';
+  font-size: 62.5%;
+}
+
+
+.header {
+    width: 100%;
+    height: 100%;
+    
+    
+    .inner a{
+        position: relative;
+        margin: auto;
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+
+        .box{
+            position: absolute;
+            top: 70%;
+            left: 99%;
+            transform: translateY(-50%);
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .text {
+               position: absolute;
+               left: 11px;
+               line-height: 1.8;
+               color: #ffff;
+            }
+        } /* .box  */
+    }/* .inner a */
+}/* .header*/
+
+.item_wrap {
+    display: flex;
+}
+
+.inner .content{
+    display: flex;
+}
+
+.item_wrap-02 {
+    display: flex;
+}
+
+
+
+    
+
